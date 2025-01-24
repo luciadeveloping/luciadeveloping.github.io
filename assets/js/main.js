@@ -232,4 +232,19 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"
+    document.addEventListener('DOMContentLoaded', function() {
+      var options = {
+        strings: ["Lucía", "luciadeveloping", "Lucía Sánchez"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        backDelay: 2000,
+        startDelay: 500,
+        loop: true,
+        showCursor: true,
+      };
+
+      var typed = new Typed('.typed', options);
+    });
+
 })();
