@@ -762,6 +762,7 @@ h6 {
   background-color: var(--background-color);
   padding: 25px 0;
   position: relative;
+  min-height: 100px; /* Ajusta según sea necesario */
 }
 
 .page-title h1 {
@@ -775,12 +776,14 @@ h6 {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-top: 12px;
   font-size: 14px;
   font-weight: 400;
 }
 
 .page-title .breadcrumbs ol li+li {
   padding-left: 10px;
+  
 }
 
 .page-title .breadcrumbs ol li+li::before {
@@ -788,6 +791,7 @@ h6 {
   display: inline-block;
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
+  
 }
 
 /*--------------------------------------------------------------
